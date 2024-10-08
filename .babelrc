@@ -1,0 +1,16 @@
+{
+    "presets": [
+      "env",
+      "react",
+      [
+        "es2015",
+        { "modules": false }
+      ]
+    ],
+    "plugins": [
+      "syntax-dynamic-import", 
+      "transform-decorators-legacy",
+      "transform-class-properties", 
+      "transform-object-rest-spread",
+    ]
+  }
